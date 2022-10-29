@@ -83,13 +83,13 @@
 /* ninth year */
 
 .ex-9-img{
-    transition: filter 2s linear, border-radius 2s linear, width 2s linear;
+    transition: filter 2s , border-radius 2s , width 2s ;
 }
 
 .ex-9-img:hover{
     filter: saturate(8) hue-rotate(100deg);
     border-radius: 10%;
-    width: 200px;
+    width: 600px;
 }
 
 /* tenth exercise */
@@ -161,18 +161,22 @@
 @keyframes ex-13t {
 
     0%   {left:10%; top:-10px;}
-    25%  {left:90%; top:-10px;}
-    50%  {left:90%; top:54px;}
-    75%  {left:-15%; top: 54px;}
-    100%  {left:-15%; top:-10px;}
- 
+    20%  {left:90%; top:-10px;}
+    40%  {left:90%; top:54px;}
+    60%  {left:-15%; top: 54px;}
+    80%  {left:-15%; top:-10px;}
+    100% {left:10%; top:-10px;}
 }
+
+
+
 
 @keyframes ex-13b {
 
     0%   {right:20%; bottom:-10px;}
-    25%   {right:90%; bottom:-10px;}
-    50%  {right:90%; bottom:54px;}
-    75%   {right:-15%; bottom:54px;}
-    100% {right:-15%; bottom:-10px;}  
+    20%   {right:90%; bottom:-10px;}
+    40%  {right:90%; bottom:54px;}
+    60%   {right:-15%; bottom:54px;}
+    80% {right:-15%; bottom:-10px;}
+    100% {right:20%; bottom:-10px;}  
 }
